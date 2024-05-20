@@ -20,4 +20,12 @@
       <student_id>101</student_id>
       <course>205</course>
    </enrolled>
+   <enrolled>
+      <student_id>100</student_id>
+      <course>204</course>
+   </enrolled>
+   <enrolled>
+      <student_id>105</student_id>
+      <course>203</course>
+   </enrolled>
 </Enrolled>

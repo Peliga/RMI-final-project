@@ -28,7 +28,7 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
-public class Faculty{
+public class Client{
 	private static final String DB_URL = "jdbc:postgresql://localhost:12345/Student";
 	private static final String DB_USER = "postgres";
 	private static final String DB_PASSWORD = "admin";
