@@ -1,0 +1,22 @@
+<Student>
+  <student>
+    <id>100</id>
+    <name>John</name>
+    <program>BSIT</program>
+  </student>
+   <student>
+    <id>101</id>
+    <name>Paul</name>
+    <program>BSCS</program>
+  </student>
+   <student>
+    <id>102</id>
+    <name>Pracullos</name>
+    <program>BSAF</program>
+  </student>
+  <student>
+    <id>500</id>
+    <name>Mario</name>
+    <program>BSIS</program>
+  </student>
+</Student>

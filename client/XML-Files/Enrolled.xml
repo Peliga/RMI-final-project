@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Enrolled>
+   <enrolled>
+      <student_id>100</student_id>
+      <course>201</course>
+   </enrolled>
+   <enrolled>
+      <student_id>101</student_id>
+      <course>201</course>
+   </enrolled>
+   <enrolled>
+      <student_id>102</student_id>
+      <course>203</course>
+   </enrolled>
+   <enrolled>
+      <student_id>104</student_id>
+      <course>203</course>
+   </enrolled>
+   <enrolled>
+      <student_id>101</student_id>
+      <course>205</course>
+   </enrolled>
+</Enrolled>
