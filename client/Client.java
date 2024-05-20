@@ -159,7 +159,6 @@ public class Client{
 					if(std == 0){
 						System.out.println("Student id already exist, please try again");
 					}else{
-
 						System.out.println("New Student added");
 						p1.insertStudentIntoDatabase(id,name,program);
 						insertStudentXML(id,name,program);
