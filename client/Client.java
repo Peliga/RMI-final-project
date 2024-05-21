@@ -46,6 +46,7 @@ public class Client{
 			// Get the references of exported object from the RMI Registry...
 			EnrollmentInitialInterface p1 = (EnrollmentInitialInterface) registry.lookup("access_enrollment");
 			EnrollmentInterface p2 = (EnrollmentInterface) registry.lookup("access_enrollment");
+			InsertStudentInterface p3 = (InsertStudentInterface) registry.lookup("insert_student");
 
 			p1.truncateTable("Students");
 			p1.truncateTable("courses");
@@ -79,7 +80,7 @@ public class Client{
 				p1.initializeStudents(id,name,program);
 
 				// Insert student data into the database
-				p1.insertStudentIntoDatabase(id, name, program);
+				p3.insertStudentIntoDatabase(id, name, program);
 			}
 
 			// Parse Course XML
@@ -93,7 +94,7 @@ public class Client{
 				String description = courseElement.getElementsByTagName("description").item(0).getTextContent();
 				 
 				p1.initializeCourses(courseId,name,description);
-				p1.insertCourseIntoDatabase(courseId, name, description);
+				p3.insertCourseIntoDatabase(courseId, name, description);
 			}
 
 			// Parse Enroll XML
@@ -157,7 +158,7 @@ public class Client{
 
 					int std = p2.addStudent(id,name,program);
 					if(std == 0){
-						System.out.println("Student id already exist, please try again");
+						System.out.println("Student already exist, please try again");
 					}else{
 						System.out.println("New Student added");
 						p1.insertStudentIntoDatabase(id,name,program);

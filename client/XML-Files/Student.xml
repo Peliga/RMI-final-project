@@ -25,4 +25,9 @@
     <name>Mario pracullos</name>
     <program>BSAF</program>
   </student>
+  <student>
+    <id>106</id>
+    <name>Thismar Pracullos</name>
+    <program>BSIS</program>
+  </student>
 </Student>
